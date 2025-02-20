@@ -28,7 +28,7 @@ arama sonuçlarını bir grafiksel arayüzde listeler ve seçtiğiniz repoları 
 ## Kullanım
 1. Uygulamayı çalıştırın:
    ```bash
-   python3 main.py
+   python3 Github_Repo_Downloader.py
    ```
 2. Arama sorgusu alanına örneğin `language:python` gibi sorgunuzu girin. (Arama sorgusuna 
    otomatik olarak "stars:>100" eklenecektir.)
@@ -43,7 +43,7 @@ Terminal penceresinin görünmemesi için PyInstaller kullanarak uygulamayı EXE
 Aşağıdaki komut, terminal penceresi olmadan tek dosya halinde `Github_Repo_Downloader.exe` üretilmesini sağlar:
 
 ```bash
-pyinstaller --noconsole --onefile --name Github_Repo_Downloader.exe main.py
+pyinstaller --noconsole --onefile --name Github_Repo_Downloader.exe Github_Repo_Downloader.py
 ```
 
 Bu komut çalıştıktan sonra, `dist` klasöründe `Github_Repo_Downloader.exe` dosyasını bulabilirsiniz.
