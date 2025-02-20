@@ -28,7 +28,7 @@ arama sonuçlarını bir grafiksel arayüzde listeler ve seçtiğiniz repoları 
 ## Kullanım
 1. Uygulamayı çalıştırın:
    ```bash
-   python3 Github_Repo_Downloader.py
+   python Github_Repo_Downloader.py
    ```
 2. Arama sorgusu alanına örneğin `language:python` gibi sorgunuzu girin. (Arama sorgusuna 
    otomatik olarak "stars:>100" eklenecektir.)
